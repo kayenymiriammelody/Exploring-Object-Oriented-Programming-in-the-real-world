@@ -35,7 +35,7 @@ class Staff:
  
 
 Electronic health records, laboratory health systems and pharmacy management systems used in hospitals are used by people with little to no  knowledge of programming. Through abstraction, a user-friendly interface is created for each health worker to be able to update and retrieve patient information and inventory.  Behind the interface are multiple lines of code. The AI generated image below shows an example of a user interface.
-
+![AIgeneratedimage](ChatGPT_image.png)
 
 
  
