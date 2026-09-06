@@ -65,12 +65,12 @@ class Inpatient(Triage):
 ## Conclusion
 Python needs to be embedded more into health systems since it improves upon efficiency of health service delivery and reduces morbidity and mortality rates overtime.
 ## REFERRENCES
-[1]	“PYTHON PROGRAMMING III YEAR/II SEM MRCET PYTHON PROGRAMMING [R17A0554] LECTURE NOTES.”
-[2]	M. Urmila Chavan, “Python in Real-World”.
-[3]	“Understanding Object-Oriented Programming (OOP): A Comprehensive Guide.” [Online]. Available: https://www.researchgate.net/publication/379507883_Harnessing_the_Power_of_
-[4]	“382192.383004”.
-[5]	A. Rahnev, N. Pavlov, N. Valchanov, and T. Terzieva, Object Oriented Programming. 
-[6]	TatvaSoft, “Python in healthcare: A complete guide,” 2026.
-[7]	“16_6_2010_0690_0698”.
+1. [1]	“PYTHON PROGRAMMING III YEAR/II SEM MRCET PYTHON PROGRAMMING [R17A0554] LECTURE NOTES.”
+2. [2]	M. Urmila Chavan, “Python in Real-World”.
+3. [3]	“Understanding Object-Oriented Programming (OOP): A Comprehensive Guide.” [Online]. Available: https://www.researchgate.net/publication/379507883_Harnessing_the_Power_of_
+4. [4]	“382192.383004”.
+5. [5]	A. Rahnev, N. Pavlov, N. Valchanov, and T. Terzieva, Object Oriented Programming. 
+6. [6]	TatvaSoft, “Python in healthcare: A complete guide,” 2026.
+7. [7]	“16_6_2010_0690_0698”.
  
 
