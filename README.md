@@ -8,6 +8,7 @@ The healthcare sector uses software extensively in research, data analysis, imag
 ## Body
 Python can be used  to build relevant software in the health sector. For example, one that carries out predictive analysis of patients records to be able to predict the risk and prognosis of a patient aids in efficient healthcare delivery and reduces upon the morbidity and mortality rates[6]
 The applications of object oriented programming in health care are robust. For example, encapsulation is used to keep patients’ information’ private  and to ensure confidentiality which is congruent with data privacy laws. It then customizes the information available for each staff in the hospital for example the lab technologist will not be able to access the patients list of drugs and the receptionist will only be able to access patient appointment information among others. An example of this is as follows; 
+```
 Class Patient:
      def __init__(self, name, patient_id, medical_history, medication):
         self.__name = name
@@ -31,7 +32,7 @@ class Staff:
      def_init_(self,name,role):
           self.name=name
            self.role=role
-
+```
  
 
 Electronic health records, laboratory health systems and pharmacy management systems used in hospitals are used by people with little to no  knowledge of programming. Through abstraction, a user-friendly interface is created for each health worker to be able to update and retrieve patient information and inventory.  Behind the interface are multiple lines of code. The AI generated image below shows an example of a user interface.
@@ -40,6 +41,7 @@ Electronic health records, laboratory health systems and pharmacy management sys
 
  
 In regards to the concept of inheritance in object oriented programming a new class acquires the properties and behaviors of an existing class for example,   medical records can have ‘child’ classes with patients’ vitals records, radiological records, laboratory records, surgical procedures done and medication records[6]. An example is shown below;
+```
 class  MedicalRecords:    #parent
       def_init_(self,name):
       self.name=name
@@ -48,14 +50,17 @@ class  MedicalRecords:    #parent
           super()._init_(name)
            self.cbc=cbc
            self.rft=rft
+```
 
 Polymorphism can be applied in healthcare through the triage process. Triage is a term used to refer to the categorization of patients in regards to their medical need[7]. It enables health workers give the most ill patients priority over those that are more stable. Patients can them be admitted and be referred to as in-patient, out-patient, critical or requiring emergency care. An example is shown below;
+```
 class Triage:
   def severity(self):
     pass
 class Inpatient(Triage):
     def severity(self):
       return ‘’admit’’
+```
 
 ## Conclusion
 Python needs to be embedded more into health systems since it improves upon efficiency of health service delivery and reduces morbidity and mortality rates overtime.
